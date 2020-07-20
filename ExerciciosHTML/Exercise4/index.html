@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+</head>
+<Body>
+    
+  <form action="processa.php" method="POST">
+
+    <label for="">Text</label>
+    <input type="text" name="texto1" placeholder="Text">
+
+    <br>
+
+    <label for="">password</label>
+    <input type="password" name="senha" placeholder="Senha">
+
+    <br>
+
+    <label for="">Oculto</label>
+    <input type="hidden" name="informacao_oculta" value="mensagem oculta">
+
+    <label for="">Select </label>
+    <select name="selecao" id="selecao">
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+    </select>
+
+
+    <br>
+
+    <label for="">Radio</label> <br>
+    <input type="radio" name="radio1" value="1">Valor 1 <br>
+    <input type="radio" name="radio1" value="2">Valor 2
+  </form>
+
+  <br>
+
+  <!-- Para valor iniciar marcado colocar checked  -->
+
+    <input type="checkbox" name="checkk1" value="1" checked>Valor1<br>
+    <input type="checkbox" name="checkk1" value="2">Valor2<br>
+    <input type="checkbox" name="checkk1" value="3">Valor3<br>
+    <input type="checkbox" name="checkk1" value="4">Valor4<br>
+
+    <br>
+
+    <input type="submit" value="Enviar" name="submit">
+
+</Body>
+</html>
