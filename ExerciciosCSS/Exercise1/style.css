@@ -1,2 +1,11 @@
 /* Comentario Iniciando CSS */
 
+body{
+    background-color: cadetblue;
+}
+
+p{
+    color: aquamarine;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
